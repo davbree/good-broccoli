@@ -7,7 +7,7 @@ set -v
 if [[ -z "${STACKBIT_API_KEY}" ]]; then
     echo "WARNING: No STACKBIT_API_KEY environment variable set, skipping stackbit-pull"
 else
-    npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://12791f43.ngrok.io/pull/5d4fe633315b34d57ba27004 
+    npx @stackbit/stackbit-pull --stackbit-pull-api-url=https://41d944b7.ngrok.io/pull/5d4fe633315b34d57ba27004 
 fi
 ./ssg-build.sh
 
